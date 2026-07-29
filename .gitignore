@@ -1,0 +1,9 @@
+data/raw_cache/
+data/processed/*.parquet
+data/processed/*.duckdb
+data/exports/*.csv
+charts/*.png
+notebooks/.ipynb_checkpoints/
+__pycache__/
+node_modules/
+.DS_Store
