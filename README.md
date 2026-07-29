@@ -6,6 +6,17 @@
 
 Analyze U.S. domestic flight operations from complete BTS Reporting Carrier On-Time Performance files for 2023-2025. The project examines on-time performance, delay causes, cancellations, diversions, high-volume airports/routes, and operational factors associated with delay risk.
 
+## Start here (plain-English guide)
+
+This project answers a simple operations question: **where and when are flight disruptions most common, and what patterns should an operations team investigate first?**
+
+1. Open the [Excel workbook](excel/US_Airline_Operations_Delay_Root_Cause_Analytics.xlsx) for the business-facing analysis and charts.
+2. Read the [executive memo](docs/executive_memo.md) for the five findings, recommended actions, and their limits.
+3. Review the [Data Quality](docs/data_quality_report.md) and [Definitions](docs/data_dictionary.md) documents to see exactly how rates were calculated.
+4. Open the SQL, Power Query, Python notebook, and model diagram only if you want to inspect the technical work behind the results.
+
+In short, I collected all 36 monthly BTS files for 2023-2025, cleaned and checked the flight records, built a star-shaped analytical model, calculated operational rates, compared high-volume airports/routes/carriers fairly, and presented the results in Excel. The project identifies patterns worth investigating; it does **not** claim that an airline, airport, or time of day caused a delay.
+
 ## Source and scope
 
 - Source: [BTS Reporting Carrier On-Time Performance](https://www.transtats.bts.gov/TableInfo.asp?QO_fu146_anzr=b0-gvzr&gnoyr_VQ=FGJ)
@@ -17,7 +28,7 @@ Analyze U.S. domestic flight operations from complete BTS Reporting Carrier On-T
 
 - `scripts/` - reproducible download, transformation, SQL-export, notebook, and workbook builders
 - `sql/` - reviewed analytical queries
-- `data/processed/` - generated fact/dimension tables and DuckDB model (not committed)
+- `data/processed/` - compact dimension tables and quality profile (committed); detailed fact files and DuckDB model are generated locally and not committed
 - `data/exports/` - generated, compact dashboard/workbook extracts (not committed)
 - `docs/` - data dictionary, transformation log, quality report, methodology, and executive memo
 - `notebooks/` - executed Python/statistics analysis

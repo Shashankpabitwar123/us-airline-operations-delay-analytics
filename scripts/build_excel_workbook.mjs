@@ -378,9 +378,9 @@ titleBlock(defs, "H", "Definitions, Methodology & Sources", "Portfolio handoff g
 defs.getRange("A4:B4").values = [["Metric / Field", "Definition"]]; header(defs.getRange("A4:B4"));
 const definitions = [
   ["Scheduled flights", "Count of BTS reporting-carrier flight records at the scheduled-flight grain."],
-  ["Operated flights", "Scheduled records excluding cancelled flights."],
+  ["Operated flights", "Scheduled records that were neither cancelled nor diverted; the denominator used for on-time and arrival-delay rates."],
   ["On-time rate", "Share of operated, non-diverted flights with arrival delay under 15 minutes."],
-  ["Arrival delay rate", "Share of operated, non-diverted flights with arrival delay greater than 15 minutes."],
+  ["Arrival delay rate", "Share of operated, non-diverted flights with arrival delay of 15 minutes or more."],
   ["Cancellation rate", "Cancelled scheduled flights divided by all scheduled flights."],
   ["Diversion rate", "Diverted scheduled flights divided by all scheduled flights."],
   ["Departure period", "Scheduled departure-time categories: Overnight, Morning, Midday, Afternoon, Evening, or Unknown."],

@@ -23,7 +23,7 @@
 | Table | Key | Purpose |
 | --- | --- | --- |
 | dim_date | date_key | Date, year, month, weekday, and weekend attributes |
-| dim_airline | airline_key | Reporting carrier identifiers and names |
+| dim_airline | airline_key | Reporting carrier identifiers and codes |
 | dim_airport | airport_key | Airport code, city, state, and role-playing origin/destination use |
 | dim_route | route_key | Normalized airport-pair route |
 
