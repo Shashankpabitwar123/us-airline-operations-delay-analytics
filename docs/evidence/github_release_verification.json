@@ -1,0 +1,47 @@
+{
+  "verified_on": "2026-09-09",
+  "tableau_source_url": "https://public.tableau.com/workbooks/WHENAMERICARUNSLATE.twb?showVizHome=no",
+  "preview_source_url": "https://public.tableau.com/views/WHENAMERICARUNSLATE/WhenAmericaRunsLate.png?:showVizHome=no",
+  "published_preview_visually_checked": true,
+  "fresh_desktop_or_interaction_test": false,
+  "model_checks_passed": 26,
+  "notebook_executed_code_cells": 9,
+  "refresh_partition_regression_checks": [
+    {
+      "bootstrap_present": false,
+      "through": "2026-06",
+      "selected_partitions": 42,
+      "expected_rows": 42,
+      "passed": true
+    },
+    {
+      "bootstrap_present": true,
+      "through": "2026-06",
+      "selected_partitions": 7,
+      "expected_rows": 20928585,
+      "passed": true
+    },
+    {
+      "bootstrap_present": true,
+      "through": "2024-06",
+      "selected_partitions": 18,
+      "expected_rows": 18,
+      "passed": true
+    }
+  ],
+  "full_refresh_rerun_for_github_release": false,
+  "files": {
+    "tableau/When_America_Runs_Late.twbx": {
+      "bytes": 23978205,
+      "sha256": "072e54ed45cfd84cc10a8903197e39755d4e7409df9e722bfe805e7cafa5aedd"
+    },
+    "excel/Flightpath.xlsx": {
+      "bytes": 1185211,
+      "sha256": "52f5dd63b086a4fbb2b2486373e293c18807cddd2d0aef623c6b057420c34373"
+    },
+    "docs/images/tableau-dashboard.png": {
+      "bytes": 513486,
+      "sha256": "6e675f2cf12ed1550652ae18a2230bbcfc7af7075a1d0c38d7aec78319d3b30d"
+    }
+  }
+}

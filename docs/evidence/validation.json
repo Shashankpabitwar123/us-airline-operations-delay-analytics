@@ -1,0 +1,158 @@
+[
+  {
+    "check": "source rows to fact",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "candidate key uniqueness",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "monthly coverage",
+    "actual": 42,
+    "expected": 42,
+    "passed": true
+  },
+  {
+    "check": "outcome reconciliation",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "monthly scheduled reconciliation",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "monthly arrival reconciliation",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "hourly scheduled reconciliation",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "hourly arrival reconciliation",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "airport_monthly scheduled reconciliation",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "airport_monthly arrival reconciliation",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "carrier_monthly scheduled reconciliation",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "carrier_monthly arrival reconciliation",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "route_monthly scheduled reconciliation",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "route_monthly arrival reconciliation",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "airport_hourly scheduled reconciliation",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "airport_hourly arrival reconciliation",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "outcomes scheduled reconciliation",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "outcomes arrival reconciliation",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "tableau_operations scheduled reconciliation",
+    "actual": 24416952,
+    "expected": 24416952,
+    "passed": true
+  },
+  {
+    "check": "tableau_operations arrival reconciliation",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "airport key uniqueness",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "airport code uniqueness",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "coordinate bounds",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "Phoenix coordinate anchor",
+    "actual": 1,
+    "expected": 1,
+    "passed": true
+  },
+  {
+    "check": "airline key uniqueness",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "peer groups have competitors",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  }
+]

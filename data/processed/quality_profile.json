@@ -1,12 +1,16 @@
 {
-  "fact_rows": 20928579,
-  "unique_keys": 20928579,
-  "duplicate_key_rows": 0,
+  "fact_rows": 24416952,
+  "unique_keys": 24416952,
+  "month_count": 42,
   "min_date": "2023-01-01 00:00:00",
-  "max_date": "2025-12-31 00:00:00",
-  "cancelled_flights": 287134.0,
-  "diverted_flights": 53309.0,
-  "source_raw_rows": 20928579,
-  "retained_rows": 20928579,
-  "retention_rate": 1.0
+  "max_date": "2026-06-30 00:00:00",
+  "eligible_arrivals": 23990755.0,
+  "cancelled_flights": 363216.0,
+  "diverted_flights": 62979.0,
+  "missing_arrivals": 2,
+  "missing_departure_hours": 0,
+  "tableau_rows": 1006379,
+  "unmapped_airports": [],
+  "built_at": "2026-09-07T22:19:42.244432+00:00",
+  "through": "2026-06"
 }

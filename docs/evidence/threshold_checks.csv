@@ -1,0 +1,7 @@
+arrival_delay_minutes,flights,min_on_time,max_on_time,min_delayed,max_delayed,min_severe,max_severe
+14.0,172957,1,1,0,0,0,0
+15.0,163853,0,0,1,1,0,0
+59.0,32448,0,0,1,1,0,0
+60.0,31366,0,0,1,1,1,1
+119.0,9700,0,0,1,1,1,1
+120.0,9692,0,0,1,1,1,1

@@ -8,3 +8,10 @@ __pycache__/
 node_modules/
 .DS_Store
 excel/*.inspect.ndjson
+
+data/exports/*.json
+tableau/Data/*.hyper
+*.log
+tableau/*_Review.twbx
+node_modules
+.venv/

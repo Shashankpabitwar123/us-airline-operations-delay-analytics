@@ -1,0 +1,12 @@
+{
+  "fact_rows": 20928579,
+  "unique_keys": 20928579,
+  "duplicate_key_rows": 0,
+  "min_date": "2023-01-01 00:00:00",
+  "max_date": "2025-12-31 00:00:00",
+  "cancelled_flights": 287134.0,
+  "diverted_flights": 53309.0,
+  "source_raw_rows": 20928579,
+  "retained_rows": 20928579,
+  "retention_rate": 1.0
+}

@@ -1,60 +1,73 @@
-# U.S. Airline Operations & Delay Root-Cause Analytics
+# When America Runs Late
 
-**Tools:** Excel, Power Query, SQL, Python, Statistics
+**An Excel and Tableau project exploring 24.42 million U.S. flights.**
 
-## Purpose
+Does the time you leave change how often your flight arrives late? I started with this question, then looked at how the pattern changes across airports, airlines and routes. This project follows the work from flight records to a dashboard anyone can explore.
 
-Analyze U.S. domestic flight operations from complete BTS Reporting Carrier On-Time Performance files for 2023-2025. The project examines on-time performance, delay causes, cancellations, diversions, high-volume airports/routes, and operational factors associated with delay risk.
+**[Open the live Tableau dashboard](https://public.tableau.com/app/profile/shashank.pabitwar/viz/WHENAMERICARUNSLATE/WhenAmericaRunsLate)** · **[Download the editable Tableau workbook](https://github.com/Shashankpabitwar123/us-airline-operations-delay-analytics/raw/refs/heads/main/tableau/When_America_Runs_Late.twbx)** · **[Download the Excel workbook](https://github.com/Shashankpabitwar123/us-airline-operations-delay-analytics/raw/refs/heads/main/excel/Flightpath.xlsx)**
 
-## Start here (plain-English guide)
+[![When America Runs Late: published Tableau dashboard with departure-time comparisons, delay reasons and a U.S. route map](docs/images/tableau-dashboard.png)](https://public.tableau.com/app/profile/shashank.pabitwar/viz/WHENAMERICARUNSLATE/WhenAmericaRunsLate)
 
-This project answers a simple operations question: **where and when are flight disruptions most common, and what patterns should an operations team investigate first?**
+*This is an image of the published dashboard. Open the live version to use the filters and hover over routes.*
 
-1. Open the [Excel workbook](excel/US_Airline_Operations_Delay_Root_Cause_Analytics.xlsx) for the business-facing analysis and charts.
-2. Read the [executive memo](docs/executive_memo.md) for the five findings, recommended actions, and their limits.
-3. Review the [Data Quality](docs/data_quality_report.md) and [Definitions](docs/data_dictionary.md) documents to see exactly how rates were calculated.
-4. Open the SQL, Power Query, Python notebook, and model diagram only if you want to inspect the technical work behind the results.
+## How the project came together
 
-In short, I collected all 36 monthly BTS files for 2023-2025, cleaned and checked the flight records, built a star-shaped analytical model, calculated operational rates, compared high-volume airports/routes/carriers fairly, and presented the results in Excel. The project identifies patterns worth investigating; it does **not** claim that an airline, airport, or time of day caused a delay.
+### 1. Start with the flight records
 
-## Source and scope
+I used U.S. Department of Transportation / Bureau of Transportation Statistics reporting-carrier data: **24,416,952 scheduled domestic flights from January 2023 through June 2026**. Python prepared the monthly files, and SQL organized them into tables for analysis. The source links and retrieval details are in the [source manifest](data/source_manifest.json).
 
-- Source: [BTS Reporting Carrier On-Time Performance](https://www.transtats.bts.gov/TableInfo.asp?QO_fu146_anzr=b0-gvzr&gnoyr_VQ=FGJ)
-- Coverage: complete January 2023 through December 2025 monthly files
-- Grain: one reported scheduled domestic flight record
-- On-time definition: arrival delay under 15 minutes for operated, non-diverted flights
+### 2. Make the numbers consistent
 
-## Repository structure
+Before building the charts, I checked missing values, duplicate flight keys and monthly totals. I also corrected the original version's arrival-rate calculation: cancelled and diverted flights should not count as eligible arrivals. Cancellation rates still use all scheduled flights.
 
-- `scripts/` - reproducible download, transformation, SQL-export, notebook, and workbook builders
-- `sql/` - reviewed analytical queries
-- `data/processed/` - compact dimension tables and quality profile (committed); detailed fact files and DuckDB model are generated locally and not committed
-- `data/exports/` - generated, compact dashboard/workbook extracts (not committed)
-- `docs/` - data dictionary, transformation log, quality report, methodology, and executive memo
-- `notebooks/` - executed Python/statistics analysis
-- `excel/` - final Excel presentation workbook and rendered QA screenshots
+Every percentage is calculated from its underlying counts, so filtering an airport or airline keeps the totals consistent. The current model passes **26 validation checks**. [See the checks](docs/evidence/validation.json) or read the [plain-language definitions](docs/data_dictionary.md).
 
-## Run order
+### 3. Explore the patterns in Excel
 
-1. `python scripts/build_dataset.py`
-2. `python scripts/run_sql_analyses.py`
-3. `python scripts/build_notebook.py`
-4. `jupyter nbconvert --execute --to notebook --inplace notebooks/airline_operations_analysis.ipynb`
-5. `node scripts/build_excel_workbook.mjs`
+I built an [Excel workbook](excel/Flightpath.xlsx) with views for the network, airports, airlines, departure times and data quality. Its supporting sheets contain the summary tables behind the analysis. I also added a [Power Query import](power_query/flightpath_monthly.pq) for the monthly export and an [executed Python/SQL notebook](notebooks/flightpath_analysis.ipynb) for deeper comparisons.
 
-## Final Excel workbook
+### 4. Turn the analysis into one Tableau dashboard
 
-`excel/US_Airline_Operations_Delay_Root_Cause_Analytics.xlsx` is the primary presentation layer. It includes Executive Summary, Delay Trends, Delay Drivers, Airport Analysis, Carrier and Route Analysis, Data Quality, and Definitions worksheets. The workbook uses formula-driven annual rollups, `SUMIFS`, `COUNTIFS`, `IFERROR`, `XLOOKUP`, native Excel tables and filters, a PivotTable with a PivotTable-linked chart, conditional formatting, and interactive airport lookup. It intentionally loads compact, reconciled aggregates rather than the 20.93M-row fact table, which exceeds Excel's worksheet limit.
+The final dashboard brings the story onto one page:
 
-## Reconciled headline results
+- **When do flights arrive late?** Compare late-arrival rates by planned departure time.
+- **Morning or evening?** See the two groups side by side.
+- **Reasons airlines reported.** Compare the reported categories of delay minutes.
+- **Explore flight routes.** Hover over up to 150 busy routes and compare their delay rates.
 
-- 20,928,579 scheduled records; 0 duplicate candidate business keys.
-- 77.5% weighted on-time rate and 20.9% weighted arrival-delay rate across the complete period.
-- 2025 on-time rate: 76.3%, down from 78.2% in 2023.
-- 2025 largest reported delay-minute category: late aircraft (39.2%).
+Year, month, departure-airport and airline filters update the views. A reset button and a short reading guide help visitors explore. The packaged workbook includes the data and editable worksheets; [see how to open and edit it](tableau/README.md).
 
-## Interpretation limits
+## What I found
 
-- Associations are not causal findings. Carrier, airport, route, and departure-period comparisons can be affected by network, weather, seasonality, and route mix.
-- Delay-cause minutes are reported fields and may be missing or not applicable for some flight outcomes.
-- Rankings use documented minimum-flight thresholds to avoid over-interpreting small samples.
+With **January–June 2026** selected in the dashboard:
+
+| Finding | Result |
+|---|---:|
+| Planned flights | 3.49 million |
+| Eligible arrivals that were on time | 77.9% |
+| Planned flights cancelled | 2.2% |
+| Morning flights arriving late | 14.2% |
+| Evening flights arriving late | 29.8% |
+
+Evening flights had a higher observed delay rate. This describes a pattern; it does not prove that changing departure time causes the difference. The notebook also compares morning and evening within the same route, airline and month. [Read the methods and limitations](docs/methodology_and_limitations.md).
+
+## What I used
+
+| Tool | Its role |
+|---|---|
+| Python, pandas and Parquet | Prepare monthly records and preserve a reusable local dataset |
+| SQL / DuckDB | Build summary tables, calculate weighted rates and check totals |
+| Excel and Power Query | Explore the results and import monthly summaries |
+| Tableau Desktop / Tableau Public | Build, edit and share the interactive dashboard |
+
+The dashboard uses summarized flight counts and a packaged Hyper extract, so it can represent 24.42 million flights without drawing millions of marks. Publishing also required a valid Tableau workbook structure and correctly registered actions. [Read the build story](docs/project_story.md).
+
+## Explore the work
+
+- [Excel preview](docs/evidence/excel/Network.png)
+- [SQL analysis](sql/analysis_queries.sql) and [executed notebook](notebooks/flightpath_analysis.ipynb)
+- [Data quality report](docs/data_quality_report.md)
+- [Reproduction guide](docs/reproduction.md) and [release verification](docs/release_status.md)
+- [Original Excel-only release](archive/2025-release/README.md) — retained for history; use the current release for corrected findings
+
+**Source:** [BTS reporting-carrier data](https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ). This is historical domestic reporting-carrier data, not live flight tracking. **Built by Shashank Pabitwar.**

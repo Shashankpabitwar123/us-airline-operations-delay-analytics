@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "partition": "2023-2025",
+      "kind": "inherited flight-level processed snapshot",
+      "rows": 20928579,
+      "sha256": "b3b72ea572db241c7cda90b18095f3ed6362e295edf13aad3693ffda2065ba59",
+      "source": "BTS Reporting Carrier, 36 monthly files",
+      "note": "Original project snapshot. Original ZIP hashes were not retained; corrections derive from recorded arrival minutes, not legacy flags."
+    },
+    {
+      "partition": "2026-01",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_1.zip",
+      "raw_rows": 544003,
+      "rows": 544003,
+      "zip_sha256": "9ff58f560519dbc8fbd1b8b9fd2a172ca46d0a9e80f1df4fd48891efca41e89c",
+      "parquet_sha256": "5f8b95c44f99a8d395fb1d2bd524db98892b344eb284555e4c7b1c7231f96e04",
+      "retrieved_at": "2026-09-07T21:31:58.331774+00:00"
+    },
+    {
+      "partition": "2026-02",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_2.zip",
+      "raw_rows": 515037,
+      "rows": 515037,
+      "zip_sha256": "a18b6de822a63bb881b55983ef039bf02a7cac046e9624e5c1b19b470a5e05cb",
+      "parquet_sha256": "ff52d92a2d97bdda55f1f2873f367ec3488a81df31b6a6f45eead0911eeb2cbf",
+      "retrieved_at": "2026-09-07T21:32:03.486586+00:00"
+    },
+    {
+      "partition": "2026-03",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_3.zip",
+      "raw_rows": 612102,
+      "rows": 612102,
+      "zip_sha256": "c0864d5dabd522517976e29bb81f0c094d114e3e0e40cd51bc5a238ae4292b9d",
+      "parquet_sha256": "c0ddcf2ee549758e9247f17f59a0857154e696ec2d2686543ffd9a1bcb20f122",
+      "retrieved_at": "2026-09-07T21:32:09.658098+00:00"
+    },
+    {
+      "partition": "2026-04",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_4.zip",
+      "raw_rows": 597919,
+      "rows": 597919,
+      "zip_sha256": "70e685ffa6042e6c851c4f1e821d774dfe7318d3eb212ac5bfc6a53ea23f3cfb",
+      "parquet_sha256": "1c3f3ef0281f0334dda25c6f016b87178260e318eca22f10a1c4f4e8580f60a3",
+      "retrieved_at": "2026-09-07T21:32:15.752033+00:00"
+    },
+    {
+      "partition": "2026-05",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_5.zip",
+      "raw_rows": 611735,
+      "rows": 611735,
+      "zip_sha256": "4e7b96999440afec8c92dd23bfbc68a5852e14d9a56c3d0d366f884542ea80b3",
+      "parquet_sha256": "15c964d7254d1a0fe43bef5aa355419eb9807e4be48c49dab227eccdb709d45d",
+      "retrieved_at": "2026-09-07T21:32:21.889749+00:00"
+    },
+    {
+      "partition": "2026-06",
+      "url": "https://www.transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2026_6.zip",
+      "raw_rows": 607577,
+      "rows": 607577,
+      "zip_sha256": "acd9d03e223e079e54b77065015f0ce9b6de92f1f46148048600cc9813a47a6e",
+      "parquet_sha256": "31e7e08cf4acec075a320d34327211bcaf93378a8c391ce5c7a19ccdf06bda4e",
+      "retrieved_at": "2026-09-07T21:32:28.008828+00:00"
+    }
+  ],
+  "through": "2026-06"
+}

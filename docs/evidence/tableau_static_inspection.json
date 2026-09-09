@@ -1,0 +1,56 @@
+{
+  "artifact": {
+    "path": "tableau/When_America_Runs_Late.twbx",
+    "sha256": "072e54ed45cfd84cc10a8903197e39755d4e7409df9e722bfe805e7cafa5aedd",
+    "bytes": 23978205,
+    "packaged": true,
+    "assets": {
+      "Data/Data/board.hyper": {
+        "sha256": "c10e7c06ca6d3889eb91f095c115c9536679a6f6de4b6df074db1ae64c8efa95",
+        "bytes": 42008576
+      },
+      "Image/departure-board-graphics.svg": {
+        "sha256": "d38b951717d1bd61d86262a8b23b56e6f6177b5fe31deb6dcd706381d98010c5",
+        "bytes": 561476
+      },
+      "Image/help-filters.svg": {
+        "sha256": "368e36de051dfe4be8868c5e8c3f0e913366cf64bfde32983eb3d6fbe53aefa7",
+        "bytes": 320
+      },
+      "Image/help-route.svg": {
+        "sha256": "e76c3d024640be0397d402ba0e671229d6191ef103f21b63c60bbb6a5e251eb0",
+        "bytes": 300
+      },
+      "Image/help-clock.svg": {
+        "sha256": "7084a5a6dd124f2c1baad9df746ffff2854b9b57d410394281be9382f3d09fe8",
+        "bytes": 248
+      },
+      "Image/help-bars.svg": {
+        "sha256": "5762c20663c59c7e3fe5c284786d87196c56a83638b5e4a30dba72048ca9b9be",
+        "bytes": 237
+      },
+      "Image/help-sun.svg": {
+        "sha256": "f60c3747429f9256d6dab6ff062d9c582b9ead174852fc67dd1cb1cccfb5c116",
+        "bytes": 301
+      },
+      "Image/help-info.svg": {
+        "sha256": "1e75e43a40a4df52fc378ccd8616132d7927faa3e61fcbce56a2e8245f5c5aef",
+        "bytes": 283
+      }
+    },
+    "archive_errors": []
+  },
+  "version": "18.1",
+  "worksheet_count": 47,
+  "dashboard_count": 1,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "native-wrapper-zone-id",
+      "detail": "When America Runs Late: 49"
+    }
+  ],
+  "runtime_status": "Not tested by this checker",
+  "scope": "Targeted static checks, not complete schema, formula, data, rendering or Public validation",
+  "static_passed": true
+}

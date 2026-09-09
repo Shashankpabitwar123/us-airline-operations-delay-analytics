@@ -1,0 +1,1445 @@
+{
+  "half_year_comparison": [
+    {
+      "year": 2023,
+      "scheduled_flights": 3340569.0,
+      "eligible_arrivals": 3279959.0,
+      "on_time_rate": 0.7780475304721797,
+      "cancellation_rate": 0.015517715694541858
+    },
+    {
+      "year": 2024,
+      "scheduled_flights": 3461319.0,
+      "eligible_arrivals": 3403465.0,
+      "on_time_rate": 0.780033877239813,
+      "cancellation_rate": 0.014059958068008178
+    },
+    {
+      "year": 2025,
+      "scheduled_flights": 3446676.0,
+      "eligible_arrivals": 3385822.0,
+      "on_time_rate": 0.7810537588804137,
+      "cancellation_rate": 0.014980810496838113
+    },
+    {
+      "year": 2026,
+      "scheduled_flights": 3488373.0,
+      "eligible_arrivals": 3402621.0,
+      "on_time_rate": 0.7787817097466924,
+      "cancellation_rate": 0.02181016766268974
+    }
+  ],
+  "full_year_comparison": [
+    {
+      "year": 2023,
+      "scheduled_flights": 6847899.0,
+      "eligible_arrivals": 6743403.0,
+      "on_time_rate": 0.7943621343704358
+    },
+    {
+      "year": 2024,
+      "scheduled_flights": 7079061.0,
+      "eligible_arrivals": 6965247.0,
+      "on_time_rate": 0.7918284879200982
+    },
+    {
+      "year": 2025,
+      "scheduled_flights": 7001619.0,
+      "eligible_arrivals": 6879484.0,
+      "on_time_rate": 0.7769254205693334
+    }
+  ],
+  "matched_dayparts": [
+    {
+      "year": 2023,
+      "morning_rate": 0.14398616675581422,
+      "evening_rate": 0.31196765689370554,
+      "gap": 0.16798149013789127,
+      "matched_cells": 4134,
+      "represented_arrivals": 430242.0
+    },
+    {
+      "year": 2024,
+      "morning_rate": 0.14414427845382793,
+      "evening_rate": 0.3173824395755539,
+      "gap": 0.17323816112172624,
+      "matched_cells": 4141,
+      "represented_arrivals": 425578.0
+    },
+    {
+      "year": 2025,
+      "morning_rate": 0.13151863634582986,
+      "evening_rate": 0.2903813767079351,
+      "gap": 0.15886274036210565,
+      "matched_cells": 4311,
+      "represented_arrivals": 440108.0
+    },
+    {
+      "year": 2026,
+      "morning_rate": 0.13737633837523258,
+      "evening_rate": 0.29706273248150566,
+      "gap": 0.1596863941062726,
+      "matched_cells": 4097,
+      "represented_arrivals": 424196.0
+    }
+  ],
+  "matched_sensitivity": [
+    {
+      "threshold": 30,
+      "year": 2023,
+      "matched_cells": 4134,
+      "gap": 0.16798149013789127
+    },
+    {
+      "threshold": 30,
+      "year": 2024,
+      "matched_cells": 4141,
+      "gap": 0.17323816112172624
+    },
+    {
+      "threshold": 30,
+      "year": 2025,
+      "matched_cells": 4311,
+      "gap": 0.15886274036210565
+    },
+    {
+      "threshold": 30,
+      "year": 2026,
+      "matched_cells": 4097,
+      "gap": 0.1596863941062726
+    },
+    {
+      "threshold": 60,
+      "year": 2023,
+      "matched_cells": 474,
+      "gap": 0.1684345780874086
+    },
+    {
+      "threshold": 60,
+      "year": 2024,
+      "matched_cells": 457,
+      "gap": 0.17295000520136442
+    },
+    {
+      "threshold": 60,
+      "year": 2025,
+      "matched_cells": 477,
+      "gap": 0.16304762611494886
+    },
+    {
+      "threshold": 60,
+      "year": 2026,
+      "matched_cells": 453,
+      "gap": 0.15787347534167437
+    },
+    {
+      "threshold": 100,
+      "year": 2023,
+      "matched_cells": 33,
+      "gap": 0.14412791430380056
+    },
+    {
+      "threshold": 100,
+      "year": 2024,
+      "matched_cells": 19,
+      "gap": 0.16757439383423
+    },
+    {
+      "threshold": 100,
+      "year": 2025,
+      "matched_cells": 13,
+      "gap": 0.18752480596628335
+    },
+    {
+      "threshold": 100,
+      "year": 2026,
+      "matched_cells": 15,
+      "gap": 0.1516406311086179
+    }
+  ],
+  "hourly_profile": [
+    {
+      "year": 2023,
+      "departure_hour": 0,
+      "scheduled_flights": 5226.0,
+      "eligible_arrivals": 5129.0,
+      "delayed_flights": 1130.0,
+      "delay_rate": 0.22031585104308832
+    },
+    {
+      "year": 2023,
+      "departure_hour": 1,
+      "scheduled_flights": 1841.0,
+      "eligible_arrivals": 1803.0,
+      "delayed_flights": 510.0,
+      "delay_rate": 0.28286189683860236
+    },
+    {
+      "year": 2023,
+      "departure_hour": 2,
+      "scheduled_flights": 851.0,
+      "eligible_arrivals": 834.0,
+      "delayed_flights": 202.0,
+      "delay_rate": 0.2422062350119904
+    },
+    {
+      "year": 2023,
+      "departure_hour": 3,
+      "scheduled_flights": 241.0,
+      "eligible_arrivals": 236.0,
+      "delayed_flights": 81.0,
+      "delay_rate": 0.3432203389830508
+    },
+    {
+      "year": 2023,
+      "departure_hour": 4,
+      "scheduled_flights": 172.0,
+      "eligible_arrivals": 166.0,
+      "delayed_flights": 34.0,
+      "delay_rate": 0.20481927710843373
+    },
+    {
+      "year": 2023,
+      "departure_hour": 5,
+      "scheduled_flights": 94107.0,
+      "eligible_arrivals": 92458.0,
+      "delayed_flights": 8729.0,
+      "delay_rate": 0.0944104350083281
+    },
+    {
+      "year": 2023,
+      "departure_hour": 6,
+      "scheduled_flights": 245822.0,
+      "eligible_arrivals": 241587.0,
+      "delayed_flights": 26571.0,
+      "delay_rate": 0.1099852227147984
+    },
+    {
+      "year": 2023,
+      "departure_hour": 7,
+      "scheduled_flights": 221028.0,
+      "eligible_arrivals": 217579.0,
+      "delayed_flights": 29660.0,
+      "delay_rate": 0.13631830277738202
+    },
+    {
+      "year": 2023,
+      "departure_hour": 8,
+      "scheduled_flights": 221991.0,
+      "eligible_arrivals": 218654.0,
+      "delayed_flights": 33181.0,
+      "delay_rate": 0.1517511685128102
+    },
+    {
+      "year": 2023,
+      "departure_hour": 9,
+      "scheduled_flights": 187844.0,
+      "eligible_arrivals": 185317.0,
+      "delayed_flights": 30446.0,
+      "delay_rate": 0.16429145734066491
+    },
+    {
+      "year": 2023,
+      "departure_hour": 10,
+      "scheduled_flights": 206562.0,
+      "eligible_arrivals": 203532.0,
+      "delayed_flights": 35590.0,
+      "delay_rate": 0.17486193817188453
+    },
+    {
+      "year": 2023,
+      "departure_hour": 11,
+      "scheduled_flights": 206100.0,
+      "eligible_arrivals": 203044.0,
+      "delayed_flights": 39363.0,
+      "delay_rate": 0.19386438407438783
+    },
+    {
+      "year": 2023,
+      "departure_hour": 12,
+      "scheduled_flights": 198422.0,
+      "eligible_arrivals": 195375.0,
+      "delayed_flights": 40451.0,
+      "delay_rate": 0.2070428662827895
+    },
+    {
+      "year": 2023,
+      "departure_hour": 13,
+      "scheduled_flights": 199536.0,
+      "eligible_arrivals": 196309.0,
+      "delayed_flights": 46067.0,
+      "delay_rate": 0.2346657565368883
+    },
+    {
+      "year": 2023,
+      "departure_hour": 14,
+      "scheduled_flights": 187505.0,
+      "eligible_arrivals": 184198.0,
+      "delayed_flights": 45999.0,
+      "delay_rate": 0.24972583849987515
+    },
+    {
+      "year": 2023,
+      "departure_hour": 15,
+      "scheduled_flights": 190587.0,
+      "eligible_arrivals": 187000.0,
+      "delayed_flights": 49323.0,
+      "delay_rate": 0.26375935828877006
+    },
+    {
+      "year": 2023,
+      "departure_hour": 16,
+      "scheduled_flights": 191706.0,
+      "eligible_arrivals": 187718.0,
+      "delayed_flights": 53021.0,
+      "delay_rate": 0.282450271151408
+    },
+    {
+      "year": 2023,
+      "departure_hour": 17,
+      "scheduled_flights": 202841.0,
+      "eligible_arrivals": 198562.0,
+      "delayed_flights": 57343.0,
+      "delay_rate": 0.2887914102396229
+    },
+    {
+      "year": 2023,
+      "departure_hour": 18,
+      "scheduled_flights": 201391.0,
+      "eligible_arrivals": 196965.0,
+      "delayed_flights": 58392.0,
+      "delay_rate": 0.29645876170893304
+    },
+    {
+      "year": 2023,
+      "departure_hour": 19,
+      "scheduled_flights": 186518.0,
+      "eligible_arrivals": 182189.0,
+      "delayed_flights": 56428.0,
+      "delay_rate": 0.3097223213256563
+    },
+    {
+      "year": 2023,
+      "departure_hour": 20,
+      "scheduled_flights": 151521.0,
+      "eligible_arrivals": 147955.0,
+      "delayed_flights": 46731.0,
+      "delay_rate": 0.31584603426717583
+    },
+    {
+      "year": 2023,
+      "departure_hour": 21,
+      "scheduled_flights": 117262.0,
+      "eligible_arrivals": 114414.0,
+      "delayed_flights": 34885.0,
+      "delay_rate": 0.3049014980684182
+    },
+    {
+      "year": 2023,
+      "departure_hour": 22,
+      "scheduled_flights": 91288.0,
+      "eligible_arrivals": 89336.0,
+      "delayed_flights": 26230.0,
+      "delay_rate": 0.29361063848840335
+    },
+    {
+      "year": 2023,
+      "departure_hour": 23,
+      "scheduled_flights": 30207.0,
+      "eligible_arrivals": 29599.0,
+      "delayed_flights": 7628.0,
+      "delay_rate": 0.2577114091692287
+    },
+    {
+      "year": 2024,
+      "departure_hour": 0,
+      "scheduled_flights": 5934.0,
+      "eligible_arrivals": 5834.0,
+      "delayed_flights": 1266.0,
+      "delay_rate": 0.21700377099760026
+    },
+    {
+      "year": 2024,
+      "departure_hour": 1,
+      "scheduled_flights": 2305.0,
+      "eligible_arrivals": 2253.0,
+      "delayed_flights": 498.0,
+      "delay_rate": 0.2210386151797603
+    },
+    {
+      "year": 2024,
+      "departure_hour": 2,
+      "scheduled_flights": 911.0,
+      "eligible_arrivals": 891.0,
+      "delayed_flights": 187.0,
+      "delay_rate": 0.20987654320987653
+    },
+    {
+      "year": 2024,
+      "departure_hour": 3,
+      "scheduled_flights": 609.0,
+      "eligible_arrivals": 600.0,
+      "delayed_flights": 119.0,
+      "delay_rate": 0.19833333333333333
+    },
+    {
+      "year": 2024,
+      "departure_hour": 4,
+      "scheduled_flights": 353.0,
+      "eligible_arrivals": 346.0,
+      "delayed_flights": 67.0,
+      "delay_rate": 0.1936416184971098
+    },
+    {
+      "year": 2024,
+      "departure_hour": 5,
+      "scheduled_flights": 98469.0,
+      "eligible_arrivals": 96928.0,
+      "delayed_flights": 9206.0,
+      "delay_rate": 0.09497771541762957
+    },
+    {
+      "year": 2024,
+      "departure_hour": 6,
+      "scheduled_flights": 246070.0,
+      "eligible_arrivals": 242444.0,
+      "delayed_flights": 24495.0,
+      "delay_rate": 0.1010336407582782
+    },
+    {
+      "year": 2024,
+      "departure_hour": 7,
+      "scheduled_flights": 239023.0,
+      "eligible_arrivals": 235417.0,
+      "delayed_flights": 30822.0,
+      "delay_rate": 0.13092512435380624
+    },
+    {
+      "year": 2024,
+      "departure_hour": 8,
+      "scheduled_flights": 232165.0,
+      "eligible_arrivals": 228823.0,
+      "delayed_flights": 33510.0,
+      "delay_rate": 0.14644506889604628
+    },
+    {
+      "year": 2024,
+      "departure_hour": 9,
+      "scheduled_flights": 190990.0,
+      "eligible_arrivals": 188354.0,
+      "delayed_flights": 31071.0,
+      "delay_rate": 0.1649606591843019
+    },
+    {
+      "year": 2024,
+      "departure_hour": 10,
+      "scheduled_flights": 217171.0,
+      "eligible_arrivals": 213972.0,
+      "delayed_flights": 37975.0,
+      "delay_rate": 0.17747649225132262
+    },
+    {
+      "year": 2024,
+      "departure_hour": 11,
+      "scheduled_flights": 209245.0,
+      "eligible_arrivals": 206412.0,
+      "delayed_flights": 39567.0,
+      "delay_rate": 0.19168943666065927
+    },
+    {
+      "year": 2024,
+      "departure_hour": 12,
+      "scheduled_flights": 206736.0,
+      "eligible_arrivals": 203482.0,
+      "delayed_flights": 42163.0,
+      "delay_rate": 0.20720751712682203
+    },
+    {
+      "year": 2024,
+      "departure_hour": 13,
+      "scheduled_flights": 207141.0,
+      "eligible_arrivals": 203885.0,
+      "delayed_flights": 46674.0,
+      "delay_rate": 0.22892316747185915
+    },
+    {
+      "year": 2024,
+      "departure_hour": 14,
+      "scheduled_flights": 194695.0,
+      "eligible_arrivals": 191238.0,
+      "delayed_flights": 47350.0,
+      "delay_rate": 0.2475972348591807
+    },
+    {
+      "year": 2024,
+      "departure_hour": 15,
+      "scheduled_flights": 201341.0,
+      "eligible_arrivals": 198034.0,
+      "delayed_flights": 51881.0,
+      "delay_rate": 0.26198026601492674
+    },
+    {
+      "year": 2024,
+      "departure_hour": 16,
+      "scheduled_flights": 199681.0,
+      "eligible_arrivals": 195813.0,
+      "delayed_flights": 55631.0,
+      "delay_rate": 0.2841026898111974
+    },
+    {
+      "year": 2024,
+      "departure_hour": 17,
+      "scheduled_flights": 216960.0,
+      "eligible_arrivals": 212872.0,
+      "delayed_flights": 61567.0,
+      "delay_rate": 0.2892207523770153
+    },
+    {
+      "year": 2024,
+      "departure_hour": 18,
+      "scheduled_flights": 214096.0,
+      "eligible_arrivals": 209854.0,
+      "delayed_flights": 64344.0,
+      "delay_rate": 0.30661316915569875
+    },
+    {
+      "year": 2024,
+      "departure_hour": 19,
+      "scheduled_flights": 193065.0,
+      "eligible_arrivals": 189113.0,
+      "delayed_flights": 59636.0,
+      "delay_rate": 0.3153458514221656
+    },
+    {
+      "year": 2024,
+      "departure_hour": 20,
+      "scheduled_flights": 154613.0,
+      "eligible_arrivals": 151346.0,
+      "delayed_flights": 48183.0,
+      "delay_rate": 0.318363220699589
+    },
+    {
+      "year": 2024,
+      "departure_hour": 21,
+      "scheduled_flights": 119868.0,
+      "eligible_arrivals": 117716.0,
+      "delayed_flights": 33928.0,
+      "delay_rate": 0.2882191036052873
+    },
+    {
+      "year": 2024,
+      "departure_hour": 22,
+      "scheduled_flights": 81460.0,
+      "eligible_arrivals": 79903.0,
+      "delayed_flights": 22381.0,
+      "delay_rate": 0.280102123825138
+    },
+    {
+      "year": 2024,
+      "departure_hour": 23,
+      "scheduled_flights": 28418.0,
+      "eligible_arrivals": 27935.0,
+      "delayed_flights": 6126.0,
+      "delay_rate": 0.21929479148022193
+    },
+    {
+      "year": 2025,
+      "departure_hour": 0,
+      "scheduled_flights": 5520.0,
+      "eligible_arrivals": 5450.0,
+      "delayed_flights": 866.0,
+      "delay_rate": 0.15889908256880733
+    },
+    {
+      "year": 2025,
+      "departure_hour": 1,
+      "scheduled_flights": 1834.0,
+      "eligible_arrivals": 1824.0,
+      "delayed_flights": 263.0,
+      "delay_rate": 0.14418859649122806
+    },
+    {
+      "year": 2025,
+      "departure_hour": 2,
+      "scheduled_flights": 614.0,
+      "eligible_arrivals": 608.0,
+      "delayed_flights": 113.0,
+      "delay_rate": 0.18585526315789475
+    },
+    {
+      "year": 2025,
+      "departure_hour": 3,
+      "scheduled_flights": 361.0,
+      "eligible_arrivals": 359.0,
+      "delayed_flights": 54.0,
+      "delay_rate": 0.15041782729805014
+    },
+    {
+      "year": 2025,
+      "departure_hour": 4,
+      "scheduled_flights": 234.0,
+      "eligible_arrivals": 231.0,
+      "delayed_flights": 27.0,
+      "delay_rate": 0.11688311688311688
+    },
+    {
+      "year": 2025,
+      "departure_hour": 5,
+      "scheduled_flights": 101536.0,
+      "eligible_arrivals": 99517.0,
+      "delayed_flights": 9575.0,
+      "delay_rate": 0.09621471708351337
+    },
+    {
+      "year": 2025,
+      "departure_hour": 6,
+      "scheduled_flights": 237877.0,
+      "eligible_arrivals": 233977.0,
+      "delayed_flights": 24298.0,
+      "delay_rate": 0.10384781410138604
+    },
+    {
+      "year": 2025,
+      "departure_hour": 7,
+      "scheduled_flights": 246735.0,
+      "eligible_arrivals": 243287.0,
+      "delayed_flights": 31720.0,
+      "delay_rate": 0.1303809903529576
+    },
+    {
+      "year": 2025,
+      "departure_hour": 8,
+      "scheduled_flights": 236259.0,
+      "eligible_arrivals": 232893.0,
+      "delayed_flights": 34099.0,
+      "delay_rate": 0.14641487721829338
+    },
+    {
+      "year": 2025,
+      "departure_hour": 9,
+      "scheduled_flights": 193318.0,
+      "eligible_arrivals": 190737.0,
+      "delayed_flights": 29698.0,
+      "delay_rate": 0.15570130598677762
+    },
+    {
+      "year": 2025,
+      "departure_hour": 10,
+      "scheduled_flights": 208994.0,
+      "eligible_arrivals": 205874.0,
+      "delayed_flights": 35172.0,
+      "delay_rate": 0.17084235989002983
+    },
+    {
+      "year": 2025,
+      "departure_hour": 11,
+      "scheduled_flights": 216934.0,
+      "eligible_arrivals": 213982.0,
+      "delayed_flights": 40975.0,
+      "delay_rate": 0.19148806908992344
+    },
+    {
+      "year": 2025,
+      "departure_hour": 12,
+      "scheduled_flights": 202461.0,
+      "eligible_arrivals": 199096.0,
+      "delayed_flights": 41557.0,
+      "delay_rate": 0.20872845260577813
+    },
+    {
+      "year": 2025,
+      "departure_hour": 13,
+      "scheduled_flights": 202475.0,
+      "eligible_arrivals": 199440.0,
+      "delayed_flights": 44593.0,
+      "delay_rate": 0.22359105495387083
+    },
+    {
+      "year": 2025,
+      "departure_hour": 14,
+      "scheduled_flights": 200798.0,
+      "eligible_arrivals": 197257.0,
+      "delayed_flights": 49289.0,
+      "delay_rate": 0.24987199440324045
+    },
+    {
+      "year": 2025,
+      "departure_hour": 15,
+      "scheduled_flights": 196237.0,
+      "eligible_arrivals": 192885.0,
+      "delayed_flights": 52443.0,
+      "delay_rate": 0.27188739404308265
+    },
+    {
+      "year": 2025,
+      "departure_hour": 16,
+      "scheduled_flights": 198996.0,
+      "eligible_arrivals": 194996.0,
+      "delayed_flights": 55669.0,
+      "delay_rate": 0.2854879074442553
+    },
+    {
+      "year": 2025,
+      "departure_hour": 17,
+      "scheduled_flights": 216786.0,
+      "eligible_arrivals": 212360.0,
+      "delayed_flights": 63758.0,
+      "delay_rate": 0.30023544923714446
+    },
+    {
+      "year": 2025,
+      "departure_hour": 18,
+      "scheduled_flights": 208945.0,
+      "eligible_arrivals": 204364.0,
+      "delayed_flights": 61990.0,
+      "delay_rate": 0.3033313107983794
+    },
+    {
+      "year": 2025,
+      "departure_hour": 19,
+      "scheduled_flights": 191020.0,
+      "eligible_arrivals": 186719.0,
+      "delayed_flights": 58546.0,
+      "delay_rate": 0.31355137934543353
+    },
+    {
+      "year": 2025,
+      "departure_hour": 20,
+      "scheduled_flights": 158357.0,
+      "eligible_arrivals": 154760.0,
+      "delayed_flights": 47525.0,
+      "delay_rate": 0.3070883949340915
+    },
+    {
+      "year": 2025,
+      "departure_hour": 21,
+      "scheduled_flights": 113444.0,
+      "eligible_arrivals": 110946.0,
+      "delayed_flights": 31920.0,
+      "delay_rate": 0.2877075333946244
+    },
+    {
+      "year": 2025,
+      "departure_hour": 22,
+      "scheduled_flights": 79887.0,
+      "eligible_arrivals": 77616.0,
+      "delayed_flights": 21971.0,
+      "delay_rate": 0.2830730777159349
+    },
+    {
+      "year": 2025,
+      "departure_hour": 23,
+      "scheduled_flights": 27054.0,
+      "eligible_arrivals": 26644.0,
+      "delayed_flights": 5192.0,
+      "delay_rate": 0.19486563579042185
+    },
+    {
+      "year": 2026,
+      "departure_hour": 0,
+      "scheduled_flights": 4964.0,
+      "eligible_arrivals": 4832.0,
+      "delayed_flights": 776.0,
+      "delay_rate": 0.1605960264900662
+    },
+    {
+      "year": 2026,
+      "departure_hour": 1,
+      "scheduled_flights": 1869.0,
+      "eligible_arrivals": 1794.0,
+      "delayed_flights": 298.0,
+      "delay_rate": 0.16610925306577481
+    },
+    {
+      "year": 2026,
+      "departure_hour": 2,
+      "scheduled_flights": 634.0,
+      "eligible_arrivals": 619.0,
+      "delayed_flights": 123.0,
+      "delay_rate": 0.1987075928917609
+    },
+    {
+      "year": 2026,
+      "departure_hour": 3,
+      "scheduled_flights": 291.0,
+      "eligible_arrivals": 282.0,
+      "delayed_flights": 53.0,
+      "delay_rate": 0.1879432624113475
+    },
+    {
+      "year": 2026,
+      "departure_hour": 4,
+      "scheduled_flights": 96.0,
+      "eligible_arrivals": 93.0,
+      "delayed_flights": 16.0,
+      "delay_rate": 0.17204301075268819
+    },
+    {
+      "year": 2026,
+      "departure_hour": 5,
+      "scheduled_flights": 95867.0,
+      "eligible_arrivals": 93640.0,
+      "delayed_flights": 8056.0,
+      "delay_rate": 0.0860316104228962
+    },
+    {
+      "year": 2026,
+      "departure_hour": 6,
+      "scheduled_flights": 239406.0,
+      "eligible_arrivals": 233194.0,
+      "delayed_flights": 23349.0,
+      "delay_rate": 0.10012693293995557
+    },
+    {
+      "year": 2026,
+      "departure_hour": 7,
+      "scheduled_flights": 259043.0,
+      "eligible_arrivals": 253363.0,
+      "delayed_flights": 32100.0,
+      "delay_rate": 0.1266956895837198
+    },
+    {
+      "year": 2026,
+      "departure_hour": 8,
+      "scheduled_flights": 238115.0,
+      "eligible_arrivals": 233053.0,
+      "delayed_flights": 33916.0,
+      "delay_rate": 0.1455291285673216
+    },
+    {
+      "year": 2026,
+      "departure_hour": 9,
+      "scheduled_flights": 196332.0,
+      "eligible_arrivals": 192426.0,
+      "delayed_flights": 31441.0,
+      "delay_rate": 0.16339268082275785
+    },
+    {
+      "year": 2026,
+      "departure_hour": 10,
+      "scheduled_flights": 220326.0,
+      "eligible_arrivals": 215462.0,
+      "delayed_flights": 38937.0,
+      "delay_rate": 0.18071400061263704
+    },
+    {
+      "year": 2026,
+      "departure_hour": 11,
+      "scheduled_flights": 212644.0,
+      "eligible_arrivals": 208235.0,
+      "delayed_flights": 41166.0,
+      "delay_rate": 0.1976901097317934
+    },
+    {
+      "year": 2026,
+      "departure_hour": 12,
+      "scheduled_flights": 211202.0,
+      "eligible_arrivals": 206502.0,
+      "delayed_flights": 45237.0,
+      "delay_rate": 0.21906325362466222
+    },
+    {
+      "year": 2026,
+      "departure_hour": 13,
+      "scheduled_flights": 205627.0,
+      "eligible_arrivals": 201263.0,
+      "delayed_flights": 47119.0,
+      "delay_rate": 0.23411655396173167
+    },
+    {
+      "year": 2026,
+      "departure_hour": 14,
+      "scheduled_flights": 197297.0,
+      "eligible_arrivals": 192828.0,
+      "delayed_flights": 49541.0,
+      "delay_rate": 0.2569180824361607
+    },
+    {
+      "year": 2026,
+      "departure_hour": 15,
+      "scheduled_flights": 200602.0,
+      "eligible_arrivals": 195764.0,
+      "delayed_flights": 52450.0,
+      "delay_rate": 0.26792464395905274
+    },
+    {
+      "year": 2026,
+      "departure_hour": 16,
+      "scheduled_flights": 201656.0,
+      "eligible_arrivals": 196597.0,
+      "delayed_flights": 57045.0,
+      "delay_rate": 0.29016210827225236
+    },
+    {
+      "year": 2026,
+      "departure_hour": 17,
+      "scheduled_flights": 221398.0,
+      "eligible_arrivals": 215108.0,
+      "delayed_flights": 63111.0,
+      "delay_rate": 0.29339215649813116
+    },
+    {
+      "year": 2026,
+      "departure_hour": 18,
+      "scheduled_flights": 205556.0,
+      "eligible_arrivals": 199780.0,
+      "delayed_flights": 61802.0,
+      "delay_rate": 0.30935028531384523
+    },
+    {
+      "year": 2026,
+      "departure_hour": 19,
+      "scheduled_flights": 193540.0,
+      "eligible_arrivals": 187562.0,
+      "delayed_flights": 58362.0,
+      "delay_rate": 0.31116110939316066
+    },
+    {
+      "year": 2026,
+      "departure_hour": 20,
+      "scheduled_flights": 156273.0,
+      "eligible_arrivals": 151781.0,
+      "delayed_flights": 48155.0,
+      "delay_rate": 0.31726632450701997
+    },
+    {
+      "year": 2026,
+      "departure_hour": 21,
+      "scheduled_flights": 116992.0,
+      "eligible_arrivals": 113036.0,
+      "delayed_flights": 33210.0,
+      "delay_rate": 0.2938002052443469
+    },
+    {
+      "year": 2026,
+      "departure_hour": 22,
+      "scheduled_flights": 78853.0,
+      "eligible_arrivals": 76221.0,
+      "delayed_flights": 20865.0,
+      "delay_rate": 0.2737434565277286
+    },
+    {
+      "year": 2026,
+      "departure_hour": 23,
+      "scheduled_flights": 29790.0,
+      "eligible_arrivals": 29186.0,
+      "delayed_flights": 5594.0,
+      "delay_rate": 0.19166723771671348
+    }
+  ],
+  "peer_comparison": [
+    {
+      "year": 2023,
+      "carrier_name": "Envoy Air",
+      "eligible_arrivals": 454.0,
+      "matched_cells": 4,
+      "difference_from_competitors": -0.1660488638998377
+    },
+    {
+      "year": 2023,
+      "carrier_name": "Republic Airways",
+      "eligible_arrivals": 22519.0,
+      "matched_cells": 115,
+      "difference_from_competitors": -0.08248848172076084
+    },
+    {
+      "year": 2023,
+      "carrier_name": "PSA Airlines",
+      "eligible_arrivals": 1747.0,
+      "matched_cells": 12,
+      "difference_from_competitors": -0.06766594435129378
+    },
+    {
+      "year": 2023,
+      "carrier_name": "Endeavor Air",
+      "eligible_arrivals": 6003.0,
+      "matched_cells": 46,
+      "difference_from_competitors": -0.061189493771100376
+    },
+    {
+      "year": 2023,
+      "carrier_name": "SkyWest Airlines",
+      "eligible_arrivals": 30605.0,
+      "matched_cells": 162,
+      "difference_from_competitors": -0.05274007494567118
+    },
+    {
+      "year": 2023,
+      "carrier_name": "United Airlines",
+      "eligible_arrivals": 90318.0,
+      "matched_cells": 530,
+      "difference_from_competitors": -0.040000069232878736
+    },
+    {
+      "year": 2023,
+      "carrier_name": "Delta Air Lines",
+      "eligible_arrivals": 108162.0,
+      "matched_cells": 593,
+      "difference_from_competitors": -0.037755518162200415
+    },
+    {
+      "year": 2023,
+      "carrier_name": "Southwest Airlines",
+      "eligible_arrivals": 110877.0,
+      "matched_cells": 612,
+      "difference_from_competitors": 0.014765746674517405
+    },
+    {
+      "year": 2023,
+      "carrier_name": "American Airlines",
+      "eligible_arrivals": 88782.0,
+      "matched_cells": 484,
+      "difference_from_competitors": 0.01953235742593509
+    },
+    {
+      "year": 2023,
+      "carrier_name": "Alaska Airlines",
+      "eligible_arrivals": 34248.0,
+      "matched_cells": 179,
+      "difference_from_competitors": 0.0382795242147338
+    },
+    {
+      "year": 2023,
+      "carrier_name": "Frontier Airlines",
+      "eligible_arrivals": 4791.0,
+      "matched_cells": 33,
+      "difference_from_competitors": 0.04908378629842959
+    },
+    {
+      "year": 2023,
+      "carrier_name": "JetBlue Airways",
+      "eligible_arrivals": 47536.0,
+      "matched_cells": 264,
+      "difference_from_competitors": 0.061218684566493195
+    },
+    {
+      "year": 2023,
+      "carrier_name": "Spirit Airlines",
+      "eligible_arrivals": 21038.0,
+      "matched_cells": 166,
+      "difference_from_competitors": 0.07751440360496367
+    },
+    {
+      "year": 2023,
+      "carrier_name": "Hawaiian Airlines",
+      "eligible_arrivals": 24751.0,
+      "matched_cells": 48,
+      "difference_from_competitors": 0.14198430801251452
+    },
+    {
+      "year": 2024,
+      "carrier_name": "Envoy Air",
+      "eligible_arrivals": 2052.0,
+      "matched_cells": 18,
+      "difference_from_competitors": -0.07653986197992466
+    },
+    {
+      "year": 2024,
+      "carrier_name": "Republic Airways",
+      "eligible_arrivals": 20383.0,
+      "matched_cells": 118,
+      "difference_from_competitors": -0.07012686366470545
+    },
+    {
+      "year": 2024,
+      "carrier_name": "United Airlines",
+      "eligible_arrivals": 99881.0,
+      "matched_cells": 579,
+      "difference_from_competitors": -0.06496856646810834
+    },
+    {
+      "year": 2024,
+      "carrier_name": "PSA Airlines",
+      "eligible_arrivals": 2978.0,
+      "matched_cells": 26,
+      "difference_from_competitors": -0.057214362951088275
+    },
+    {
+      "year": 2024,
+      "carrier_name": "SkyWest Airlines",
+      "eligible_arrivals": 30656.0,
+      "matched_cells": 155,
+      "difference_from_competitors": -0.05286099782514747
+    },
+    {
+      "year": 2024,
+      "carrier_name": "Delta Air Lines",
+      "eligible_arrivals": 111021.0,
+      "matched_cells": 599,
+      "difference_from_competitors": -0.04595151304357504
+    },
+    {
+      "year": 2024,
+      "carrier_name": "Endeavor Air",
+      "eligible_arrivals": 5390.0,
+      "matched_cells": 42,
+      "difference_from_competitors": -0.016892825048465614
+    },
+    {
+      "year": 2024,
+      "carrier_name": "Spirit Airlines",
+      "eligible_arrivals": 16941.0,
+      "matched_cells": 140,
+      "difference_from_competitors": 0.02257287190904263
+    },
+    {
+      "year": 2024,
+      "carrier_name": "Southwest Airlines",
+      "eligible_arrivals": 117546.0,
+      "matched_cells": 679,
+      "difference_from_competitors": 0.04118333466062827
+    },
+    {
+      "year": 2024,
+      "carrier_name": "American Airlines",
+      "eligible_arrivals": 89525.0,
+      "matched_cells": 507,
+      "difference_from_competitors": 0.046786839115104506
+    },
+    {
+      "year": 2024,
+      "carrier_name": "JetBlue Airways",
+      "eligible_arrivals": 32309.0,
+      "matched_cells": 186,
+      "difference_from_competitors": 0.051767164544951665
+    },
+    {
+      "year": 2024,
+      "carrier_name": "Frontier Airlines",
+      "eligible_arrivals": 8031.0,
+      "matched_cells": 58,
+      "difference_from_competitors": 0.053103013414730456
+    },
+    {
+      "year": 2024,
+      "carrier_name": "Hawaiian Airlines",
+      "eligible_arrivals": 24520.0,
+      "matched_cells": 50,
+      "difference_from_competitors": 0.06766594019815271
+    },
+    {
+      "year": 2024,
+      "carrier_name": "Alaska Airlines",
+      "eligible_arrivals": 33188.0,
+      "matched_cells": 177,
+      "difference_from_competitors": 0.07038549777859197
+    },
+    {
+      "year": 2025,
+      "carrier_name": "United Airlines",
+      "eligible_arrivals": 106570.0,
+      "matched_cells": 593,
+      "difference_from_competitors": -0.05870003643824157
+    },
+    {
+      "year": 2025,
+      "carrier_name": "Spirit Airlines",
+      "eligible_arrivals": 8849.0,
+      "matched_cells": 77,
+      "difference_from_competitors": -0.035789512117785895
+    },
+    {
+      "year": 2025,
+      "carrier_name": "Republic Airways",
+      "eligible_arrivals": 23073.0,
+      "matched_cells": 128,
+      "difference_from_competitors": -0.032625346950427965
+    },
+    {
+      "year": 2025,
+      "carrier_name": "SkyWest Airlines",
+      "eligible_arrivals": 36811.0,
+      "matched_cells": 213,
+      "difference_from_competitors": -0.028962583089076968
+    },
+    {
+      "year": 2025,
+      "carrier_name": "Delta Air Lines",
+      "eligible_arrivals": 103207.0,
+      "matched_cells": 582,
+      "difference_from_competitors": -0.009737012582577288
+    },
+    {
+      "year": 2025,
+      "carrier_name": "Envoy Air",
+      "eligible_arrivals": 4701.0,
+      "matched_cells": 39,
+      "difference_from_competitors": 0.015385510131071494
+    },
+    {
+      "year": 2025,
+      "carrier_name": "JetBlue Airways",
+      "eligible_arrivals": 28919.0,
+      "matched_cells": 169,
+      "difference_from_competitors": 0.018427133903140484
+    },
+    {
+      "year": 2025,
+      "carrier_name": "Southwest Airlines",
+      "eligible_arrivals": 101403.0,
+      "matched_cells": 608,
+      "difference_from_competitors": 0.01960140019173156
+    },
+    {
+      "year": 2025,
+      "carrier_name": "American Airlines",
+      "eligible_arrivals": 89525.0,
+      "matched_cells": 491,
+      "difference_from_competitors": 0.025676308136569
+    },
+    {
+      "year": 2025,
+      "carrier_name": "Frontier Airlines",
+      "eligible_arrivals": 5293.0,
+      "matched_cells": 39,
+      "difference_from_competitors": 0.0413579024911703
+    },
+    {
+      "year": 2025,
+      "carrier_name": "PSA Airlines",
+      "eligible_arrivals": 4253.0,
+      "matched_cells": 35,
+      "difference_from_competitors": 0.07107320091626616
+    },
+    {
+      "year": 2025,
+      "carrier_name": "Hawaiian Airlines",
+      "eligible_arrivals": 24308.0,
+      "matched_cells": 52,
+      "difference_from_competitors": 0.09159181563099088
+    },
+    {
+      "year": 2025,
+      "carrier_name": "Alaska Airlines",
+      "eligible_arrivals": 32889.0,
+      "matched_cells": 183,
+      "difference_from_competitors": 0.09481239026354023
+    },
+    {
+      "year": 2026,
+      "carrier_name": "United Airlines",
+      "eligible_arrivals": 114372.0,
+      "matched_cells": 628,
+      "difference_from_competitors": -0.07952966419752522
+    },
+    {
+      "year": 2026,
+      "carrier_name": "Envoy Air",
+      "eligible_arrivals": 7846.0,
+      "matched_cells": 63,
+      "difference_from_competitors": -0.0758623712126016
+    },
+    {
+      "year": 2026,
+      "carrier_name": "Republic Airways",
+      "eligible_arrivals": 25196.0,
+      "matched_cells": 148,
+      "difference_from_competitors": -0.048039235751657194
+    },
+    {
+      "year": 2026,
+      "carrier_name": "Delta Air Lines",
+      "eligible_arrivals": 94209.0,
+      "matched_cells": 558,
+      "difference_from_competitors": -0.04021850462429941
+    },
+    {
+      "year": 2026,
+      "carrier_name": "SkyWest Airlines",
+      "eligible_arrivals": 33429.0,
+      "matched_cells": 212,
+      "difference_from_competitors": -0.0301226885517323
+    },
+    {
+      "year": 2026,
+      "carrier_name": "Frontier Airlines",
+      "eligible_arrivals": 9350.0,
+      "matched_cells": 76,
+      "difference_from_competitors": 0.03126331330620399
+    },
+    {
+      "year": 2026,
+      "carrier_name": "PSA Airlines",
+      "eligible_arrivals": 1196.0,
+      "matched_cells": 10,
+      "difference_from_competitors": 0.0355291625734575
+    },
+    {
+      "year": 2026,
+      "carrier_name": "JetBlue Airways",
+      "eligible_arrivals": 28804.0,
+      "matched_cells": 170,
+      "difference_from_competitors": 0.04085566670165356
+    },
+    {
+      "year": 2026,
+      "carrier_name": "American Airlines",
+      "eligible_arrivals": 90993.0,
+      "matched_cells": 509,
+      "difference_from_competitors": 0.04336528835213038
+    },
+    {
+      "year": 2026,
+      "carrier_name": "Alaska Airlines",
+      "eligible_arrivals": 58896.0,
+      "matched_cells": 255,
+      "difference_from_competitors": 0.05293276869325761
+    },
+    {
+      "year": 2026,
+      "carrier_name": "Southwest Airlines",
+      "eligible_arrivals": 86511.0,
+      "matched_cells": 523,
+      "difference_from_competitors": 0.07766608146192851
+    },
+    {
+      "year": 2026,
+      "carrier_name": "Spirit Airlines",
+      "eligible_arrivals": 3445.0,
+      "matched_cells": 30,
+      "difference_from_competitors": 0.17164720959315488
+    }
+  ],
+  "observed_dayparts": [
+    {
+      "year": 2023,
+      "departure_period": "Afternoon",
+      "scheduled_flights": 786525,
+      "eligible_arrivals": 770245.0,
+      "delay_rate": 0.28312939389415054
+    },
+    {
+      "year": 2023,
+      "departure_period": "Evening",
+      "scheduled_flights": 576796,
+      "eligible_arrivals": 563493.0,
+      "delay_rate": 0.30506501411730047
+    },
+    {
+      "year": 2023,
+      "departure_period": "Midday",
+      "scheduled_flights": 791563,
+      "eligible_arrivals": 778926.0,
+      "delay_rate": 0.22066281007438449
+    },
+    {
+      "year": 2023,
+      "departure_period": "Morning",
+      "scheduled_flights": 1083247,
+      "eligible_arrivals": 1066669.0,
+      "delay_rate": 0.1457321812108536
+    },
+    {
+      "year": 2023,
+      "departure_period": "Overnight",
+      "scheduled_flights": 102438,
+      "eligible_arrivals": 100626.0,
+      "delay_rate": 0.10619521793572238
+    },
+    {
+      "year": 2024,
+      "departure_period": "Afternoon",
+      "scheduled_flights": 832078,
+      "eligible_arrivals": 816573.0,
+      "delay_rate": 0.28585686766523016
+    },
+    {
+      "year": 2024,
+      "departure_period": "Evening",
+      "scheduled_flights": 577424,
+      "eligible_arrivals": 566013.0,
+      "delay_rate": 0.3007952114174056
+    },
+    {
+      "year": 2024,
+      "departure_period": "Midday",
+      "scheduled_flights": 817817,
+      "eligible_arrivals": 805017.0,
+      "delay_rate": 0.21832333975555795
+    },
+    {
+      "year": 2024,
+      "departure_period": "Morning",
+      "scheduled_flights": 1125419,
+      "eligible_arrivals": 1109010.0,
+      "delay_rate": 0.1423548931028575
+    },
+    {
+      "year": 2024,
+      "departure_period": "Overnight",
+      "scheduled_flights": 108581,
+      "eligible_arrivals": 106852.0,
+      "delay_rate": 0.10615617863961367
+    },
+    {
+      "year": 2025,
+      "departure_period": "Afternoon",
+      "scheduled_flights": 820964,
+      "eligible_arrivals": 804605.0,
+      "delay_rate": 0.29065193480030577
+    },
+    {
+      "year": 2025,
+      "departure_period": "Evening",
+      "scheduled_flights": 569762,
+      "eligible_arrivals": 556685.0,
+      "delay_rate": 0.2966740616327007
+    },
+    {
+      "year": 2025,
+      "departure_period": "Midday",
+      "scheduled_flights": 822668,
+      "eligible_arrivals": 809775.0,
+      "delay_rate": 0.21785557716649687
+    },
+    {
+      "year": 2025,
+      "departure_period": "Morning",
+      "scheduled_flights": 1123183,
+      "eligible_arrivals": 1106768.0,
+      "delay_rate": 0.14003567143249535
+    },
+    {
+      "year": 2025,
+      "departure_period": "Overnight",
+      "scheduled_flights": 110099,
+      "eligible_arrivals": 107989.0,
+      "delay_rate": 0.10091768606061728
+    },
+    {
+      "year": 2026,
+      "departure_period": "Afternoon",
+      "scheduled_flights": 829212,
+      "eligible_arrivals": 807249.0,
+      "delay_rate": 0.29037880505271607
+    },
+    {
+      "year": 2026,
+      "departure_period": "Evening",
+      "scheduled_flights": 575448,
+      "eligible_arrivals": 557786.0,
+      "delay_rate": 0.2979386359643304
+    },
+    {
+      "year": 2026,
+      "departure_period": "Midday",
+      "scheduled_flights": 826770,
+      "eligible_arrivals": 808828.0,
+      "delay_rate": 0.22633118536944813
+    },
+    {
+      "year": 2026,
+      "departure_period": "Morning",
+      "scheduled_flights": 1153222,
+      "eligible_arrivals": 1127498.0,
+      "delay_rate": 0.14167918701407897
+    },
+    {
+      "year": 2026,
+      "departure_period": "Overnight",
+      "scheduled_flights": 103721,
+      "eligible_arrivals": 101260.0,
+      "delay_rate": 0.09206004345249852
+    }
+  ]
+}

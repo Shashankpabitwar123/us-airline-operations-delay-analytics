@@ -1,39 +1,14 @@
-# Data Quality Report
+# Quality report — refreshed build
 
-## Dataset and grain
+- Source records: 24,416,952; unique candidate flight keys: 24,416,952.
+- Coverage: 42 months, 2023-01-01 through 2026-06-30.
+- Eligible arrivals: 23,990,755; cancellations: 363,216; diversions: 62,979; missing arrivals: 2.
+- Outcome partition reconciles exactly to scheduled flights.
+- All 367 airport codes map to coordinates. Scheduled hour missing: zero.
+- All 26 model checks pass in [validation.json](evidence/validation.json).
+- Independent flight-level versus Tableau-grain year/month reconciliation passes for counts, eligible arrivals and delayed arrivals.
+- Actual records at 14/15, 59/60 and 119/120 minute boundaries are checked in [threshold_checks.csv](evidence/threshold_checks.csv).
+- Executed notebook includes comparable-period analysis, matching coverage, threshold sensitivity and leave-one-out peers.
+- Excel selectors were changed/recalculated for multiple years; formula-error scan found no errors. Every tab was rendered. Native Microsoft Excel is unavailable.
 
-- Source: BTS Reporting Carrier On-Time Performance monthly files.
-- Coverage: 2023-01-01 through 2025-12-31.
-- Grain: one scheduled domestic flight record.
-- Raw source rows: 20,928,579.
-- Retained fact rows: 20,928,579 (100.0% retained after required-key checks).
-
-## Checks performed and results
-
-| Check | Result | Status |
-| --- | ---: | --- |
-| Candidate flight keys | 20,928,579 distinct of 20,928,579 rows | PASS |
-| Duplicate candidate-key rows | 0 | PASS |
-| Date coverage | 2023-01-01 to 2025-12-31 | PASS |
-| Fact to dimension model | Date, airline, airport, and route dimensions generated from fact keys | PASS |
-| Arrival-delay missingness | 1.63% | Expected: cancelled/diverted flight outcomes are not applicable |
-| Distance missingness | 0.00% | PASS |
-| Cancelled flights with Unknown cancellation code | 0.00% | PASS |
-| Scheduled flights reconciled | 20,928,579 fact rows | PASS |
-| Cancelled flights | 287,134 | Reconciled operational population |
-| Diverted flights | 53,309 | Reconciled operational population |
-
-## Analytical risks and treatment
-
-- **Cancelled/diverted arrival fields:** Arrival delay is null when arrival performance is not applicable. These records remain in cancellation/diversion denominators and are excluded from on-time/delay-rate denominators.
-- **Departure-period Unknown:** Two records did not map to a planned departure-period bin. This is negligible but remains visible rather than being silently relabeled.
-- **Candidate key:** The composite key is unique in this extract. The project still documents it as a candidate business key rather than implying BTS guarantees a universal immutable event identifier.
-- **Volume thresholds:** Airport analysis requires 5,000 departures; route analysis requires 1,000 flights; route-month carrier comparisons require 100 flights per carrier cell.
-
-## Automated controls to keep
-
-1. Candidate flight-key uniqueness.
-2. Required date/carrier/origin/destination key completeness.
-3. Monthly date-coverage check for each expected BTS partition.
-4. Dimension-join duplication/coverage checks.
-5. Source-to-model and model-to-workbook row-count reconciliation.
+For exact presentation-application acceptance, see [release status](release_status.md). Structural validity is distinct from native visual and interaction validation.
